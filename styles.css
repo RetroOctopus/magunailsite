@@ -150,7 +150,6 @@ body {
         color: #F6F6DD;
         position: sticky;
         left: 280px;
-        top: 200px;
     }
 
     .navbar__links:hover {
@@ -225,5 +224,13 @@ body {
     z-index: 2;
     color: #F6F6DD;
     text-decoration: none;
+}
+
+.info {
+    margin-top: 20%;
+    white-space: nowrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
 }
 
