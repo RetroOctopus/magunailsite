@@ -33,19 +33,12 @@ body {
     z-index: 1;
 }
 
-#navbar__logo {
-    background-color: #956A4A;
-    background-image: linear-gradient(to top, #744d2e 0%, #F6F6DD 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+.logo {
+    min-width: 18%;
+    max-width: 18%;
     display: flex;
     align-items: center;
     cursor: pointer;
-    text-decoration: none;
-    font-size: 42px;
     position: absolute;
     left: 18px;
     padding-top: 15px;
@@ -123,9 +116,11 @@ body {
         padding: 0;
     }
 
-    #navbar__logo {
+    .logo {
         padding-left: 15px;
         padding-top: 20px;
+        min-width: 20%;
+        max-width: 33%;
     }
 
 /* This make and controls hamburger menu*/
@@ -145,7 +140,7 @@ body {
         text-align: left;
         padding: 2rem;
         width: 75%;
-        height: 47vh;
+        height: 200%;
         display: table;
         background: #956A4A;
         color: #F6F6DD;
