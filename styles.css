@@ -88,7 +88,7 @@ body {
 
 @media screen and (max-width: 960px) {
     .navbar__container{
-        display: flex;
+        display: grid;
         justify-content: space-between;
         height: 80px;
         z-index: 1;
@@ -104,8 +104,8 @@ body {
         margin: 0;
         width: 100%;
         position: absolute;
-        right: -1000px;
-        opacity: 1;
+        top: -1000px;
+        opacity: 0;
         transition: all 0.5 ease;
         height: 50vh;
         z-index: -1;
@@ -113,12 +113,11 @@ body {
 
     .navbar__menu.active {
         top: 100%;
-        left: 50%;
-        opacity: 1;
+        left: 10%;
+        opacity: 0.95;
         transition: all 0.4s ease;
         z-index: 99;
-        height: 50vh;
-        max-width: 65%;
+        max-width: 85%;
         font-size: 1.6rem;
     }
 
