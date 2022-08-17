@@ -200,8 +200,8 @@ body {
 }
 
 .main__img--container {
-    background-size: 90%;
-    padding: 15em;
+    background-size: 100%;
+    padding: 50%;
     background-image: url(img/nails.PNG);
     background-repeat: no-repeat;
     background-position: center center;
